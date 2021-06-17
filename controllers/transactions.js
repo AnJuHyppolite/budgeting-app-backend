@@ -33,6 +33,13 @@ transactions.delete("/:arrayIdx", (req, res) => {
   res.json(deletedTransaction[0])
 })
 
+//PUT - update action - /transactions/:id - put has a body
+transactions.put("/:arrayIdx", (req, res) => {
+  const { arrayIdx } = req.params
+  const { body } = req
+  transactionsArray[arrayIdx] = body
+  res.json(transactionsArray[arrayIdx])
+})
 
 
 module.exports = transactions;
