@@ -44,8 +44,8 @@ transactions.put("/:arrayIdx", (req, res) => {
   const { body } = req;
   const transaction = transactionsArray[arrayIdx];
   if (transaction) {
-    transaction = body;
-    res.json(transaction);
+    transactionsArray[arrayIdx] = body;
+    res.json(body);
   } else {
     res.redirect("/404");
   }
