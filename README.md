@@ -1,7 +1,7 @@
 # Project Links
-Front-end Link: https://github.com/AnJuHyppolite/budgeting-app-frontend
-Netlify link: https://anjus-budget-app.netlify.app/
-Heroku: https://tranquil-badlands-09117.herokuapp.com/
+1. Front-end Link: https://github.com/AnJuHyppolite/budgeting-app-frontend
+2. Netlify link: https://anjus-budget-app.netlify.app/
+3. Heroku: https://tranquil-badlands-09117.herokuapp.com/
 
 # basic-express-app
 
